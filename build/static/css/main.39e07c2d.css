@@ -1,0 +1,88 @@
+body {
+  background-color: #f7f7f7;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+nav {
+  background-color: #4ecdc4;
+  padding: 1rem;
+}
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.home {
+  padding: 50px 0;
+  text-align: center;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.menu-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+  width: 200px;
+}
+.menu-item:hover {
+  box-shadow: 0 4px 20px #0000001a;
+}
+.cart {
+  padding: 20px;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 400px;
+}
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+}
+.contact-form button {
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+}
+.contact-form button:hover {
+  background-color: #ff4c4c;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=main.39e07c2d.css.map*/
